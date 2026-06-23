@@ -1,17 +1,22 @@
 @echo off
 echo ============================================
-echo  Voice Assistant -- First-time setup
+echo   Voice Assistant - Setup
 echo ============================================
 echo.
-echo [1/3] Installing Python packages...
+echo Installing Python dependencies...
 pip install -r requirements.txt
 echo.
-echo [2/3] Downloading Gemma 4 E4B (default, ~4.5 GB)...
-ollama pull gemma4:e4b
+echo ============================================
+echo   Done!
 echo.
-echo [3/3] Downloading Gemma 4 E2B (fast, ~2.9 GB)...
-ollama pull gemma4:e2b
+echo   Run the app:
+echo     python app.py
 echo.
-echo Done! Double-click start.bat to launch.
+echo   For local AI (optional):
+echo     1. Install Ollama: https://ollama.com
+echo     2. Run: ollama pull gemma4:e2b
 echo.
+echo   Add API keys in the app Settings for
+echo   faster cloud STT and AI options.
+echo ============================================
 pause
