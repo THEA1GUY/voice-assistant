@@ -1,0 +1,8 @@
+{
+  "groq_api_key": "",
+  "deepseek_api_key": "",
+  "deepgram_api_key": "",
+  "hotkey_dictate": "ctrl+shift+d",
+  "hotkey_assistant": "ctrl+shift+a",
+  "hotkey_switch": "ctrl+shift+m"
+}

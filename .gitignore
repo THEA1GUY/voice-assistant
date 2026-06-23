@@ -1,0 +1,11 @@
+settings.json
+__pycache__/
+*.pyc
+*.pyo
+.ssl/
+audio/
+err.txt
+*.wav
+*.mp3
+*.log
+.env

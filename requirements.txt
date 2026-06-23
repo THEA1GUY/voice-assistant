@@ -1,0 +1,13 @@
+faster-whisper
+sounddevice
+numpy
+scipy
+requests
+flask
+keyboard
+pyttsx3
+pyperclip
+customtkinter
+pystray
+Pillow
+groq
