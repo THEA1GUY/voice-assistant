@@ -1,7 +1,6 @@
 """Main application window."""
 
 import customtkinter as ctk
-from config import OLLAMA_MODEL_DEFAULT, OLLAMA_MODEL_FAST, DEEPSEEK_MODEL
 
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
